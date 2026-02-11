@@ -1,0 +1,30 @@
+# --- General / OS ---
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
+*.user
+
+# --- C++ & Embedded (CLion / Makefile) ---
+cmake-build-*/
+bin/
+obj/
+*.exe
+*.out
+*.o
+
+# --- Node.js (Codédex / FrontendMasters) ---
+# This ignores every node_modules folder in any subfolder
+**/node_modules/
+npm-debug.log
+.env
+
+# --- Unity (Quest 3 Dev) ---
+# This ignores Unity junk in any subfolder
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Ll]ogs/
+*.csproj
+*.sln
