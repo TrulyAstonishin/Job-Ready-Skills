@@ -28,3 +28,10 @@ npm-debug.log
 **/[Ll]ogs/
 *.csproj
 *.sln
+
+# --- JetBrains IDEs (WebStorm, CLion, Rider) ---
+.idea/
+*.iws
+out/
+cmake-build-debug/
+cmake-build-release/
