@@ -29,5 +29,8 @@ const server =  http.createServer((request, response) => {
     }
 
     response.writeHead(statusCode, {'Content-Type': contentType});
-    response.end(content);
+    response.end(content)
 })
+server.listen(3000, function () {
+    console.log('Server running at http://localhost:3000');
+});
